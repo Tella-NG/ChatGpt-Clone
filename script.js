@@ -12,7 +12,7 @@ const deleteButton = document.querySelector("#delete-btn");
 
 
 let userText = null;
-const API_KEY = "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";
+const API_KEY = "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";
 const initialHeight = chatInput.scrollHeight;
 
 const loadDataFromLocalStorage = () => {
@@ -33,7 +33,7 @@ const loadDataFromLocalStorage = () => {
 }
 
 const createElement = (html, className) => {
-    
+
     // Created new div and apply chat, specified class and set html content of div
     const chatDiv = document.createElement("div");
     chatDiv.classList.add("chat", className);
